@@ -1,0 +1,572 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*======================================*/
+
+/*1st header part*/ 
+.email_hover li:hover{
+	color:#12687F !important;
+}
+.email_hover i:hover{
+	color:#12687F !important;
+}
+.calendar_hover a:hover{
+	color: #12687F !important;
+}
+.calendar_hover i:hover{
+	color: #12687F !important;
+}
+/*1st header part end*/
+/*======================================*/
+
+/*3rd header menu*/
+/*navbar*/
+.nav-link{
+	margin-left: 15px;
+	color:black;
+	font-size: 15px;
+}
+.nav-link:hover{
+	color: black;
+}
+.nav-item{
+	text-align: center;
+	font-weight: bold;
+}
+.dropdown-item:hover{
+	font-size:18px;
+	color: blue;
+}
+/*hover for dropdown menu*/
+
+@media only screen and (min-width: 993px){
+	.dropdown:hover .dropdown-menu{
+	display: block !important;
+	}
+	.dropdown:focus .dropdown-menu{
+	display: block !important;
+	}
+
+}
+
+.color_change_btn:hover{
+	background-color:orange!important;
+}
+
+/*=========================================*/
+
+
+/*@media only screen and (min-width: 677px){
+	.dropdown:hover .dropdown-menu{
+	display: inline;
+	}
+}*/
+/*=========================================*/
+.side_menu_item{
+	height:300px;
+	width:40px;
+	float:right;
+	position:fixed;
+	z-index: 9999;
+	top:250px;
+	right:10px;
+}
+.inner_side_menu{
+	height:40px;
+	width:100%;
+	float: left;
+	background-color:#12687F;
+	border-radius:10px;
+	margin-top:8px;
+}
+.inner_side_menu i{
+	color:white;
+	font-size:22px;
+	margin-top:8px;
+}
+.inner_side_menu:hover i{
+	font-size:30px;
+	margin-top:5px;
+}
+
+
+
+
+/*=========================================*/
+.about_info button:hover{
+	color: white;
+	background-color:#13536E !important;
+}
+
+/*SATISFIED AND SAFE SERVICE*/
+.why_choose_us1_icon{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	font-size: 50px;
+	text-align:center;
+	background-color:#E2CCD0;
+	border: 2px solid black;
+	animation-name:bor_ani;
+	animation-duration:5s;
+	animation-delay:0s;
+	animation-iteration-count:infinite;
+} 
+@keyframes bor_ani{
+	0%{border-top-left-radius:80px;}
+	25%{border-top-right-radius:80px;}
+	50%{border-bottom-right-radius:80px;}
+	75%{border-bottom-left-radius:80px;}
+}
+.why_choose_us1_icon i{
+	margin-top: 20px;
+}
+.why_choose_us{
+	height:350px;
+	border-radius:30px 0px 30px 0px !important;
+}
+.transform_scale:hover{
+	transform: scale(1.1,1.1);
+}
+.why_choose_us:hover{
+	background:#13536e !important;
+	color: white !important;
+}
+.why_choose_us3:hover .why_choose_us2{
+	color: white !important;
+}
+.why_choose_us3:hover{
+	background:#13536e !important;
+	color: white !important;
+}
+.transform_scale1:hover{
+	transform: scale(1.0,1.1);
+}
+.card-header:hover .transform_scale1{
+	transform: scale(1.0,1.1);
+	
+}
+
+.Award_logo{
+	position: absolute;
+	color: red;
+	float: right !important;
+	font-size: 60px;
+	top: 0px;
+	right: 5px;
+}
+
+
+
+/*================================================*/
+
+/*vishal css*/
+.but1{
+	margin-left: 200px;
+	border-radius: 20px;
+	widows: 200px;
+}
+.icons{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 50px;
+	background-color:#2A7C84;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.icons i{
+margin-top: 15px;
+color: white;
+}
+.icons:hover{
+	background-color:  grey;
+
+	
+}
+.icons i:hover{
+color: black;
+}
+.car1{
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+
+}
+
+.icons1{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 10px;
+	background-color:#2A7C84;
+	border-radius: 50%;
+	cursor: pointer;
+
+
+}
+.car1{
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+
+}
+.icons1 i{
+margin-top: 15px;
+color: white;
+}
+.icons1:hover{
+	background-color:  grey;
+
+	
+}
+.icons1 i:hover{
+color: black;
+}
+
+.icons2{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 10px;
+	background-color:#2A7C84;
+	border-radius: 50%;
+	cursor: pointer;
+
+
+}
+.car1{
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+
+}
+.icons2 i{
+margin-top: 15px;
+color: white;
+}
+.icons2:hover{
+	background-color:  grey;
+
+	
+}
+.icons2 i:hover{
+color: black;
+}
+
+
+.back_img1{
+	height: 400px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	/* background-image: url('../public/image/a_n/back.jpg'); */
+	/* background-image: URL('https://nagebabaproject.000webhostapp.com/image/a_n/back.jpg'); */
+	background-image: url('/public/image/a_n/back.jpg');
+	background-attachment:fixed;
+
+}
+.imghover img:hovar{
+	color: yellow;
+}
+.buttt button{
+	height: 30px;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.butt button:hover{
+	background-color: red;
+
+}
+/*================================================
+=====================================*/
+
+/*about nagebaba page*/
+
+.back_img{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-image: url('/public/image/a_n/back.jpg');
+	background-attachment:fixed;
+}
+
+.suruvat_div{
+	height: 150px;
+	width:400px;
+	background-color: white;
+	border-radius: 0% 90px 90px 0%;
+}
+
+/*about chairman page*/
+.back_img1{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	background-image: url('/public/image/a_c/back.jpg');
+	background-attachment:fixed;
+}
+.inner_back{
+	height: 100%;
+	width: 100%;
+	float: left;
+	background-color:hsla(120,50%,0%,0.6);
+}
+.transform_scale:hover{
+	transform: scale(1.1,1.1);
+}
+.hsla_color_a_c{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color:hsla(120,50%,0%,0.2);
+}
+
+/*about Management*/
+
+.back_img2{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	background-image: url('/public/image/a_c/back1.jpg');
+	background-attachment:fixed;
+}
+
+/*Seva page*/
+.back_img3{
+	height: 600px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	background-image: url('/public/image/seva/back_img.png');
+	background-attachment:fixed;
+}
+
+/*sona loan page*/
+.sona_div{
+	height: 380px;
+	width:100%;
+}
+.sona_div1{
+	height: 470px;
+	width:100%;
+}
+.sona_div a{
+	text-decoration:none;
+}
+
+
+
+/*nagebaba website */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #12687F;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container1 {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width:50%;
+}
+
+.container1.left {
+  left: 0;
+}
+
+.container1.right {
+  left: 50%;
+}
+
+.container1::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top:calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid #12687F;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container1.right::after {
+  left: -8px;
+}
+
+.container1::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #12687F;
+  z-index: 1;
+}
+
+.container1.right::before {
+  left: 8px;
+}
+
+.container1 .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #12687F;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container1.left .date {
+  right: -75px;
+}
+
+.container1.right .date {
+  left: -75px;
+}
+
+.container1 .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: white;
+  box-shadow: 0px 0px 10px 0px grey;
+  border: 2px solid #12687F;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #12687F;
+  z-index: 1;
+}
+
+.container1.left .icon {
+  right: 56px;
+}
+
+.container1.right .icon {
+  left: 56px;
+}
+
+.container1 .content {
+  padding: 30px 90px 30px 30px;
+  background: white;
+  box-shadow: 0px 0px 10px 0px grey;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+
+.container1.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.container1 .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #12687F;
+}
+
+.container1 .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container1 {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container1.right {
+    left: 0%;
+  }
+
+  .container1.left::after, 
+  .container1.right::after {
+    left: 82px;
+  }
+
+  .container1.left::before,
+  .container1.right::before {
+    left: 100px;
+    border-color: transparent #12687F transparent transparent;
+  }
+
+  .container1.left .date,
+  .container1.right .date {
+    right: auto;
+    left: 15px;
+  }
+
+  .container1.left .icon,
+  .container1.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container1.left .content,
+  .container1.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+}
+/*end nagebaba*/
+
+.btn:hover{
+	background-color:red;
+}
+
+
+/* React css */
+
+/* index.jsx madhil */
+
+.Finance_ac_card_user{
+	height: 50px;
+	width: 50px;
+	background-color: #12687F;
+	font-size: 30px
+}
+
+.btn_about_read_more{
+	background-color: white;
+	border: 2px solid white
+}
+
+.scheme_card_1{
+	background-image:linear-gradient(to right,#226585, #77C6C1);
+}
